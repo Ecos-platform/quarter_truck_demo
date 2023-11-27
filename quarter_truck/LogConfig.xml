@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecos:LogConfig xmlns:ecos="http://github.com/Ecos-platform/libecos/resources/schema/LogConfig">
+
+    <ecos:components>
+        <ecos:component name="chassis">
+            <ecos:variable name="zChassis"/>
+        </ecos:component>
+        <ecos:component name="wheel">
+            <ecos:variable name="zWheel"/>
+        </ecos:component>
+        <ecos:component name="ground">
+            <ecos:variable name="zGround"/>
+        </ecos:component>
+    </ecos:components>
+
+</ecos:LogConfig>
