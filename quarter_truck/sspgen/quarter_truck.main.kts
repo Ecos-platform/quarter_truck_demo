@@ -6,9 +6,9 @@ ssp("quarter_truck_sspgen") {
 
     resources {
 
-        file("resources/chassis.fmu")
-        file("resources/wheel.fmu")
-        file("resources/ground.fmu")
+        file("../models/chassis.fmu")
+        file("../models/wheel.fmu")
+        file("../models/ground.fmu")
     }
 
     ssd("QuarterTruck") {
